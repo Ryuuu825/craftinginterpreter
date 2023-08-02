@@ -1,0 +1,18 @@
+class Person {
+    init(name) {
+        this.name = name ;
+    }
+
+    say() {
+        print("Hello World");
+    }
+}
+
+class Student < Person  {
+    say() {
+        print("bye World");
+    }
+}
+
+
+print(Student("Ken").name);
